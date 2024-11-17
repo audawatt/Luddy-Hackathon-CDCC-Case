@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="page.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+    <title>Data CDCC and Indiana Toxicity Watch: Mapping Health & Environmental Risks</title>
+</head>
+<body>
+    <ul class="menuul">
+        <li class="menuli"><a href="page.html">Information  <i class="fa-solid fa-list"></i></a></li>
+        <li class="menuli"><a href="credits.html">Credit  <i class="fa-solid fa-code"></i></a></li>
+    </ul>
+    <div class="container padding width">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p></p><br><p></p>
+                <h1 class="header">Indiana Toxicity Watch: Mapping Health & Environmental Risks</h1>
+            </div>
+        </div>
+        <div class="row gray">
+            <div class="col-md-12">
+                <h2 class="title">Chemical Database <i class="fa-solid fa-flask"></i></h2>
+                <iframe src="https://pubchem.ncbi.nlm.nih.gov/" width="100%" height="500px"></iframe>
+            </div>
+            <p></p><br><p></p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title">Interactive Graphs <i class="fa-solid fa-table"></i></h2>
+            </div>
+            <div class="col-md-6 text-center">
+                <h5>Number & Type of Chemical Releases in Indiana by County</h5>
+                <iframe width="700" height="550" src="https://lookerstudio.google.com/embed/reporting/0f2c3ea5-b7b1-4f2e-81bf-82cf41366e47/page/7BCTE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <div class="col-md-6 text-center">
+                <h5>Percent & Type of Chemical Releases in Indiana by Industry Sector</h5>
+                <iframe width="700" height="550" src="https://lookerstudio.google.com/embed/reporting/168d3ff5-5c93-43bd-ba98-499245bb84ae/page/p_rpxe5zc0md" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+            </div>
+        </div>
+        <p></p><br><p></p>
+        <div class="row gray">
+            <div class="col-md-12">
+                <h2 class="title">Interactive Map <i class="fa-solid fa-map-location-dot"></i></h2>
+            </div>
+            <div class="col-md-7 padding2">
+                <p></p><br><p></p>
+                <iframe src="https://indianadem.maps.arcgis.com/apps/webappviewer/index.html?id=fa55673b9f4140eabe4b678c9e820b56&utm_source=agency-website&utm_medium=&utm_campaign=&utm_term=&utm_content=" width="925" height="800"></iframe>
+            </div>
+            <div class="col-md-4 padding2 center">
+                <p>An interactive GIS map of multiple environmental cleanup layers, able to be filtered by layers</p>
+                <hr>
+                <ul class="left">
+                    <li><b>Brownfield:</b> a property whose expansion, redevelopment, or use is complicated due to
+                        actual or potential hazardous/petroleum contamination that may pose a risk to human health and the
+                        environment</li>
+                    <br>
+                    <li><b>Dry Cleaners & Laundries:</b> these businesses release chemicals may contaminate water or soil</li>
+                    <br>
+                    <li><b>EPA Cleanups:</b> cleanups managed by the Environmental Protection Agency</li> 
+                    <br>
+                    <li><b>Hazardous Waste Corrective Action:</b> the current investigation and cleanup of hazardous waste</li>
+                    <br>
+                    <li><b>Leaking Underground Storage Tanks:</b> Leaking Underground Storage Tanksand their associated
+                        piping can release chemical vapors into buildings or contaminate soil, surface water, and groundwater</li>
+                    <br>
+                    <li><b>Restricted Sites:</b> sites where Institutional Controls are required</li>
+                    <br>
+                    <li><b>Site Investigation:</b> under assessment for inclusion on the National Priorities List of the federal Superfund program</li>
+                    <br>
+                    <li><b>State Cleanup:</b> sites are contaminated with hazardous substances, but are not included on
+                        the National Priorities List of the federal Superfund program</li>
+                    <br>
+                    <li><b>Superfund:</b> created by the partnership between Office of Land Quality’s Superfund and the U.S. Environmental Protection Agency to clean up sites contaminated with hazardous waste that may require complex investigations, significant cleanup actions, and long-term attention</li>
+                    <br>
+                    <li><b>Voluntary Remediation Program:</b> encourages environmental cleanups; facilitates the redevelopment, sale, and reuse of commercial and industrial properties; and reduces the risks that contaminants pose to human health and the environment</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title">Resources  <i class="fa-solid fa-gears"></i></h2>
+            </div>
+            <div class="col-md-4 res">
+                <h5>Chemicals Data</h5>
+                <ul class="lonk">
+                    <li><a href="https://comptox.epa.gov/dashboard/">Chemical Database</a></li>
+                    <li><a href="https://www.chemspider.com/">Chemical Database</a></li>
+                    <li><a href="https://guides.lib.ua.edu/c.php?g=39819&p=4956716">Chemical Databse</a></li>
+                    <li><a href="https://www.health.ny.gov/environmental/chemicals/">Health Hazards</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 res">
+                <h5>Air, Water, and Land Data</h5>
+                <ul class="lonk">
+                    <li><a href="https://idem.agilaire.com/airvision/">Real-time Air Quality Map of Indiana</a></li>
+                    <li><a href="https://www.in.gov/idem/nps/files/ir_2024_report.pdf">2024 Indiana Water Monitoring & Assessment Report</a></li>
+                    <li><a href="https://www.ewg.org/tapwater/state.php?stab=IN">Indiana Tap Water Database</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/List_of_Superfund_sites_in_Indiana">Indiana Superfund Sites</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 res">
+                <h5>Other Resources</h5>
+                <ul class="lonk">
+                    <li><a href="https://www.in.gov/idem/resources/maps/">Indiana Department of Environmental Management</a></li>
+                    <li><a href="https://www.in.gov/idem/cleanups/investigation-and-cleanup-programs/">Indiana Environmental Cleanup Programs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 footer"></div>
+        </div>
+    </div>
+</body>
+</html>
