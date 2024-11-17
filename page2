@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="page.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+    <title> Credit CDCC and Indiana Toxicity Watch: Mapping Health & Environmental Risks</title>
+</head>
+<body>
+    <ul class="menuul">
+        <li class="menuli"><a href="page.html">Information  <i class="fa-solid fa-list"></i></a></li>
+        <li class="menuli"><a href="credits.html">Credit  <i class="fa-solid fa-code"></i></a></li>
+    </ul>
+    <div class="row credit">
+        <div class="col-md-12 text-center">
+            <p class="lonk">Layout by <a href="https://getbootstrap.com/">Bootstrap</a></p>
+            <p class="lonk">Icons by <a class="boot" href="https://fontawesome.com/">FontAwesome</a></p>
+            <p class="lonk">Interactive map by <a href="https://indianadem.maps.arcgis.com/apps/webappviewer/index.html?id=fa55673b9f4140eabe4b678c9e820b56&utm_source=agency-website&utm_medium=&utm_campaign=&utm_term=&utm_content=">IDEM</a></p>
+            <p class="lonk">Chemical Database by <a href="https://pubchem.ncbi.nlm.nih.gov/">Pubchem</a></p>
+            <p class="lonk">Data for interactive graphs from <a href="https://enviro.epa.gov/triexplorer/tri_factsheet.factsheet_forstate?pYear=2022&pstate=IN&pParent=NAT">Toxics Release Inventory</a> for Indiana</p>    
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 footer2"></div>
+    </div>
+</body>
+</html>
